@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App ToDo List</title>
+    <link href='https://fonts.googleapis.com/css?family=Kurale' rel='stylesheet'>
+    <link rel="stylesheet" href="bower_components/flexboxgrid/dist/flexboxgrid.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+    <section class="content-inner">
+        <div class="container">
+            <section class="new-task">
+                <h2>New task</h2>
+                <form id="sub-form" action="test-func.php" method="post">
+                    <input type="hidden" name="id" id="id" />
+
+                    <label for="name">Name of task <input type="text" name="name" id="name"/></label>
+
+                    <label for="status">Status
+                        <select name="status" id="status">
+                            <option value="new">New</option>
+                            <option value="current">Current</option>
+                            <option value="completed">Completed</option>
+                        </select>
+                    </label>
+
+                    <p>
+                        <button type="submit" id="postdata" name="submit" value="submit">Submit</button>
+                        <button type="reset" id="reset-form">Reset</button>
+                    </p>
+                </form>
+            </section>
+            <section class="task-lists">
+                <h2>List of task</h2>
+                </section>
+            </div>
+        </section>
+
+    </div>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="js-test.js"></script>
+</body>
+</html>

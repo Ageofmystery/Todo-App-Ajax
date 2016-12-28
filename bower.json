@@ -1,0 +1,24 @@
+{
+  "name": "ajax todo",
+  "authors": [
+    "Ageofmystery <ageofmystery@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0",
+    "flexboxgrid": "^6.3.0"
+  }
+}
